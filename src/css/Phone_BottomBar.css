@@ -1,0 +1,54 @@
+.Phone_BottomBar {
+  height: 7%;
+  width: 100%;
+  background-color: #474747;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Phone_BottomBar_Emoji_Back {
+  height: 90%;
+  width: 10%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Phone_BottomBar_Emoji {
+  height: 100%;
+  width: 90%;
+}
+
+.Phone_BottomBar_Emoji:hover {
+  cursor: pointer;
+  animation-name: rotate-emoji;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+}
+
+@keyframes rotate-emoji {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* RESET BUTTON */
+.Phone_BottomBar_Buttons {
+  background-color: #9575cd;
+  padding: 10px;
+  border-radius: 20px;
+  border: 3px solid #ffcc4d;
+  font-weight: bold;
+}
+
+.Phone_BottomBar_Buttons:hover {
+  background-color: #ffcc4d;
+  cursor: pointer;
+}

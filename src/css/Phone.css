@@ -1,0 +1,23 @@
+.Phone {
+  height: 95%;
+  width: 30%;
+  background-color: #dddddd;
+
+  border-radius: 50px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* Phone_TopBar */
+.Phone_TopBar {
+  background-color: #474747;
+  width: 100%;
+  height: 5%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

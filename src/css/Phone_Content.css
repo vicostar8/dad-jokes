@@ -1,0 +1,45 @@
+.Phone_Content {
+  background-color: #474747;
+  height: 88%;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+}
+
+.Phone_Content_Main {
+  background-color: #f8f8f8;
+  width: 90%;
+  overflow: scroll;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.Phone_Content_Loading {
+  background-color: #ffe69e;
+  width: 90%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 5rem;
+}
+
+.Phone_Content_Loading i {
+  animation: spin 1.5s infinite;
+  animation-name: spin-loading-emoji;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+}
+
+@keyframes spin-loading-emoji {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

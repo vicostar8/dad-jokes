@@ -1,0 +1,12 @@
+.Joke_Favorite {
+  font-size: 2rem;
+
+  position: absolute;
+  top: -25px;
+  right: -15px;
+  transform: rotate(-45deg);
+}
+
+.Joke_Favorite:hover {
+  cursor: pointer;
+}
